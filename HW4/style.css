@@ -1,0 +1,276 @@
+body {
+  
+}
+.content{
+  width: 100%;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url('rana-sawalha-364253-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; /* Добавлено для удаления полосы прокрутки */
+}
+.flex-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_chenge1{
+  background-image: url(ic_caledar.png);
+  width: 19px;
+  height: 19px;
+  margin-right: 15px;
+}
+.logo_chenge1:hover{
+  background-image: url(ic_caledar_grn.png);
+  
+}
+
+.logo_chenge2{
+  background: url(ic_forum.png);
+  width: 27px;
+  height: 19px;
+  margin-right: 15px;
+}
+.logo_chenge2:hover{
+  background: url(ic_forum_grn.png);
+}
+
+.logo_chenge3{
+  background: url(ic_journey.png);
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+
+}
+.logo_chenge3:hover{
+  background: url(ic_journey_grn.png);
+}
+
+a{
+  text-decoration: none;
+}
+header {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Сірий колір з прозорістю */
+  img{
+    padding-right: 30px;
+  }
+  .logo-container h1 {
+    margin: 0;
+    padding: 0 20px;
+    color: #fff; /* Колір тексту білий */
+    transition: color 0.3s; /* Плавний перехід кольору */
+
+    
+}
+
+.logo-container h1:hover {
+  color: rgb(83, 232, 163); /* Колір тексту при наведенні */
+}
+
+
+.login-links {
+  display: flex;
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+}
+
+.login-links p {
+  margin: 0; /* Видалити зайвий відступ від параграфів */
+  padding-right: 10px; /* Додатковий відступ між елементами */
+}
+
+.login-links a {
+  text-decoration: none;
+  color: rgb(83, 232, 163);
+  margin: 0 5px; /* Додатковий відступ між посиланнями */
+}
+
+
+p{
+  color: rgb(254, 254, 254);
+}
+
+}
+.menu{
+  width: 100%;
+  max-width: 445px;
+  height: 100%;
+  max-height: 585px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin: 65px auto;
+  border-radius: 5px;
+}
+.flex-box_main{
+  width: 100%;
+  max-width: 445px;
+  display: flex;
+  align-items: flex-end;   
+}
+.flex-content_main1{
+  padding: 0 45px 0 0;
+}
+.flex-content_main2{
+  padding: 0 210px 0 0;
+}
+
+.SignUp {
+  color: black;
+  font-size: 20px;
+  padding: 30px 0 0 0;
+}
+.LogIn{
+  font-size: 13px;
+  padding: 30px 0 0 0;
+}
+.flex-box_dutton{
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 33px 0;
+}
+.button_facebook{
+  width: 100%;
+  width: 155px;
+  height: 46px;
+  background-color: #305db8;
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+}
+.flex-box_face{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_facebook{
+  font-weight: bold;
+  font-size: 20px;
+}
+.lineIn_face{
+  padding: 0px 18px;
+}
+.button_facebook:hover{
+  background-color: #253d6d;
+}
+.button_google{
+  width: 100%;
+  width: 155px;
+  height: 46px;
+  background-color: #df4a32;
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+}
+.flex-box_google{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo_google{
+  font-weight: bold;
+  font-size: 20px;
+}
+b{
+  font-weight: normal;
+  font-size: 15px;
+}
+.lineIn_google{
+  padding: 0px 24px 0 8px;
+}
+.button_google:hover{
+  background-color: #9b3121;
+}
+.button{
+  
+  padding: 0px 8px 0 0px;
+}
+.flex-vertical_line{
+  display: flex;
+  align-items: center;
+}
+.or{
+  padding: 0 15px 3px 15px;
+}
+
+.list-box{
+  width: 100%;
+  max-width: 288px;
+  padding: 15px ;
+  margin: 9px 0 0 0;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.list-box:focus{
+  color: black;
+  font-weight: 600;
+}
+.list-box:focus-visible{
+  outline: 0;
+  
+}
+
+.mark{
+  width: 320px;
+  display: flex;
+  align-items: flex-end; 
+  padding: 20px 0 0 0;
+}
+.mark input{
+  display: none;
+}
+.mark input ~ span{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 1px solid silver;
+  border-radius: 3px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+.mark input:checked ~ span{
+  background-color: white;
+}
+.mark input:checked ~ span:after{
+  content: "";
+  width: 6px;
+  height: 3px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-left: 2px solid #3cb878;
+  border-bottom: 2px solid #3cb878;
+  transform: rotate( -45deg);
+}
+.text{
+  padding: 0 0 0 10px;
+  
+}
+
+.button_create{
+  width: 100%;
+  max-width: 320px;
+  padding: 25px 0 33px 0;
+}
+
+.button_createAccount{
+  width: 100%;
+  height: 46px;
+  background-color: #3cb878;
+  border: 0px;
+  color: white;
+  border-radius: 5px;
+}
+.button_createAccount:hover{
+  background-color: #2a8556;
+}
